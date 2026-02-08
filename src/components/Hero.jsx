@@ -1,4 +1,5 @@
 import WaveTop from "./waves/WaveTop";
+import profilePhoto from "../assets/IMG_9779.jpg";
 
 export default function Hero() {
   return (
@@ -7,18 +8,18 @@ export default function Hero() {
 
       <div className="relative z-10">
         <h2 className="text-4xl md:text-5xl font-semibold leading-tight mb-4">
-          Hello! 👋 <br /> I'm Arnold Kells
+          Hello! 👋 <br /> I'm Arnold Kiritu
         </h2>
         <p className="text-lg text-gray-600 mb-6">
           Frontend Developer & UI Engineer
         </p>
-        <button className="bg-[#f28b82] text-white px-7 py-3 rounded-full shadow hover:scale-105 transition">
+        <a href="https://github.com/arnold-0803" className="inline-block bg-[#f28b82] text-white px-7 py-3 rounded-full shadow hover:scale-105 transition">
           View My Work
-        </button>
+        </a>
       </div>
 
       <div className="bg-[#ffe3d3] rounded-[40px] h-[300px] flex items-center justify-center text-gray-400 text-lg shadow relative z-10">
-        Your Illustration / Photo Here
+        <img src={profilePhoto} alt="" />
       </div>
     </section>
   );

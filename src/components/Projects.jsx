@@ -53,9 +53,9 @@ export default function Projects() {
         </div>
 
         <div className="mt-10 text-center">
-          <button className="bg-[#f28b82] text-white px-8 py-3 rounded-full shadow hover:scale-105 transition">
+          <a href="https://github.com/arnold-0803?tab=repositories" className="inline-block bg-[#f28b82] text-white px-8 py-3 rounded-full shadow hover:scale-105 transition">
             See All Projects
-          </button>
+          </a>
         </div>
       </div>
     </section>

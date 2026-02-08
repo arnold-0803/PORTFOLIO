@@ -10,10 +10,11 @@ export default function About() {
         <p className="max-w-2xl text-gray-600 mb-6">
           I'm a frontend developer passionate about building modern, accessible,
           and performant web applications using React, Tailwind, and modern tools.
+          I also have passion in Arts and Crafts which backup my core skills in Web Dev.
         </p>
-        <button className="bg-[#f28b82] text-white px-6 py-2 rounded-full shadow hover:scale-105 transition">
+        <a href="https://www.linkedin.com/in/arnold-kiritu" className="inline-block bg-[#f28b82] text-white px-6 py-2 rounded-full shadow hover:scale-105 transition">
           Read More
-        </button>
+        </a>
       </div>
     </section>
   );
