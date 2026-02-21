@@ -2,18 +2,18 @@ import WaveBottom from "./waves/WaveBottom";
 
 const projects = [
   {
-    title: "Custom Carz Platform",
-    image: "/projects/custom-carz.png",
-    link: "https://github.com/arnold-0803/custom-carz-project",
+    title: "Imaginations Studio",
+    image: "/Screenshot-1.png",
+    link: "https://imaginations-studio.vercel.app/",
   },
   {
     title: "E-commerce UI",
-    image: "/projects/ecommerce-ui.png",
-    link: "#",
+    image: "/Screenshot-2.png",
+    link: "https://imaginations-studio-admin.vercel.app/",
   },
   {
     title: "Portfolio Website",
-    image: "/projects/portfolio.png",
+    image: "/Screenshot-3.png",
     link: "#",
   },
   {
