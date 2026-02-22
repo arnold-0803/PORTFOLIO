@@ -4,7 +4,7 @@ export default function Skills() {
       <h3 className="text-3xl font-semibold mb-10">Skills & Tools</h3>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
-        {["React", "Tailwind CSS", "Node.js", "Next.js", "Figma", "Git"].map(
+        {["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Node.js", "Git", "Figma", "Next.js", "TypeScript"].map(
           (skill, i) => (
             <div
               key={i}
