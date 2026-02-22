@@ -102,8 +102,9 @@ export default function Contact() {
         <p className="text-gray-600 mb-4">
           Get in touch and let's create something amazing!
         </p>
-        <p className="mb-2">📧 arnoldkells@example.com</p>
-        <p>🔗 LinkedIn | GitHub</p>
+        <p className="mb-2"><i className="fa-solid fa-envelope" ></i> arnoldkells4@gmail.com</p>
+        <p className="mb-2"><i className="fa-solid fa-link"></i> <a href="https://www.linkedin.com/in/arnold-kiritu" className="underline hover:no-underline">LinkedIn</a> | <a href="https://github.com/arnold-0803?tab=repositories" className="underline hover:no-underline">GitHub</a></p>
+        <p><i className="fa-solid fa-phone"></i> +254714387538</p>
       </div>
 
       {/* FORM */}
