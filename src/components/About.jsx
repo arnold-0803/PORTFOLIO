@@ -1,4 +1,5 @@
 import WaveMid from "./waves/WaveMid";
+import aboutImg from "../assets/RC_IMG_9996.jpg";
 
 export default function About() {
   return (
@@ -19,7 +20,7 @@ export default function About() {
             </a>
           </div>
           <div className="flex-1">
-            <img src="src/assets/RC IMG_9996.jpg" alt="" />
+            <img src={aboutImg} alt="" />
           </div>
         </div>
       </div>
