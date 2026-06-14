@@ -11,7 +11,7 @@ export default function Hero() {
           Hello! 👋 <br /> I'm Arnold Kiritu
         </h2>
         <p className="text-lg text-gray-600 mb-6">
-          Frontend Developer & UI Engineer
+          <em>Frontend Developer & UI Engineer</em>
         </p>
         <a href="https://github.com/arnold-0803" className="inline-block bg-[#f28b82] text-white px-7 py-3 rounded-full shadow hover:scale-105 transition">
           View My Work
