@@ -20,7 +20,7 @@ export default function About() {
             </a>
           </div>
           <div className="flex-1">
-            <img src={aboutImg} alt="" />
+            <img src={aboutImg} alt="photo" />
           </div>
         </div>
       </div>
